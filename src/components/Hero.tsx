@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import sketch from "../../public/assets/sketch.png";
+import sketch from "../../public/assets/peace2.png";
 
 const Hero = () => {
   return (
@@ -19,8 +19,8 @@ const Hero = () => {
               src={sketch}
               className="z-100000000 xl:w-auto xl:h-auto h-100 w-80"
               alt="love"
-              height={400}
-              width={400}
+              height={300}
+              width={300}
             />
 
             <div className="absolute md:h-130 md:w-130 top-0 -z-1000000 left-1/2 -translate-x-1/2">

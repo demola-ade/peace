@@ -1,5 +1,4 @@
 import React from "react";
-import bitemore from "../../public/assets/bitemore.png";
 import Image, { StaticImageData } from "next/image";
 
 interface expdata {
@@ -23,7 +22,6 @@ const Experience = () => {
         "Upsold products to boost store revenue by 5%",
         "Collaborated with team members to streamline checkout processes, reducing wait time by 15% during peak hours",
       ],
-      image: bitemore,
     },
     {
       role: "Freelance Sales Representative",
